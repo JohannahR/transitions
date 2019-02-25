@@ -1,0 +1,61 @@
+.square{
+    height: 50px;
+    width: 50px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1px;
+    
+}
+.odd:hover{
+    transition: all 1s ease-in-out;
+    transform: translate(100px) rotate(180deg) scale(.5);
+
+}
+.even:hover{
+    transition: all 1s ease-in-out;
+    transform: translate(-100px) rotate(180deg) scale(.5);
+}
+ .one{
+     background-color: aquamarine;
+ }
+ .two{
+     background-color: blueviolet;
+ }
+ .three{
+     background-color: cadetblue;
+ }
+ .four{
+     background-color: chocolate;
+ }
+ .five{
+     background-color: crimson;
+ }
+ .six{
+     background-color: darkcyan;
+ }
+ .seven{
+     background-color: darkgreen;
+ }
+ .eight{
+     background-color: darkolivegreen;
+ }
+ .nine{
+     background-color: hotpink;
+ }
+ .ten{
+     background-color: beige;
+ }
+ .eleven{
+     background-color: lavender;
+ }
+ .twelve{
+     background-color: orchid;
+ }
+
+ h1{
+    text-align: center;
+ }
+ 
